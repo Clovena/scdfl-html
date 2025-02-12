@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid rebeccapurple; */
+    border: 1px solid rebeccapurple;
     padding: 0;
     margin: 0;
 }
@@ -36,10 +36,22 @@ li {
     margin: 3px;
 }
 
-.banner {
-    display: inline-block;
-    width: calc(100%-144px);
+.header {
+    display: flex;
     font-style: oblique;
+}
+
+.header * {
+    flex: auto;
+}
+
+.title {
+    width: calc(100%-144px);
+    text-align: center;
+}
+
+.spacer {
+    width: 144px;
 }
 
 #overview {
