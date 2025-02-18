@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
     border: 1px solid rebeccapurple;
     padding: 0;
     margin: 0;
 }
 
 body {
+    box-sizing: border-box;
     color: #22283a;
     background-color: #e2d7ce;
 }
